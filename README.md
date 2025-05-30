@@ -1,30 +1,29 @@
-# HospTrack – Plataforma SaaS Multihospitalar com Localização Inteligente e Gestão Completa
+# CareFlow ERP – Plataforma SaaS Multihospitalar para Gestão Integrada
 
-**HospTrack** é uma plataforma SaaS moderna que permite o cadastro e a gestão independente de múltiplos hospitais. Cada hospital possui controle total sobre médicos, pacientes, especialidades, agendamentos, relatórios e muito mais. Um perfil de **Super Admin** gerencia e valida os cadastros das instituições para garantir segurança e qualidade.
+**CareFlow ERP** é uma plataforma SaaS robusta que permite o cadastro e a gestão independente de múltiplos hospitais. Cada hospital pode gerenciar suas operações, enquanto um perfil de Super Admin controla a aprovação dos cadastros, garantindo a qualidade do sistema.
 
 ---
 
 ## 🚀 Funcionalidades Principais
 
-- Cadastro e gestão de múltiplos hospitais em ambiente isolado
-- Perfil Super Admin para aprovar ou rejeitar novos cadastros
-- Gestão completa do hospital: médicos, especialidades, pacientes, atendimentos e agenda
-- Integração com Google Maps API para localização dos hospitais próximos
-- Filtro por doenças e disponibilidade dos médicos nos hospitais
-- Dashboard com gráficos e estatísticas para análise operacional
+- Cadastro e gestão independente de múltiplos hospitais
+- Perfil Super Admin para aprovação ou rejeição de novos hospitais cadastrados
+- Gestão completa do hospital: médicos, pacientes, especialidades, agendamentos e tratamentos
+- Integração com API do Google Maps para localizar hospitais próximos e verificar especialidades e médicos disponíveis
+- Dashboard com gráficos e estatísticas para análise operacional e tomada de decisões
 - Geração de relatórios detalhados em PDF
-- Sistema de notificações internas para alertas importantes
+- Sistema de notificações para alertas e comunicados importantes
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-- Laravel 10 (PHP)
-- MySQL
-- Google Maps API
-- Blade + Bootstrap 5
-- Chart.js para gráficos
-- DomPDF para geração de PDFs
+- Laravel 10 (PHP)  
+- MySQL  
+- Integração com API Google Maps  
+- Blade + Bootstrap 5  
+- Chart.js para gráficos  
+- DomPDF para geração de relatórios em PDF  
 - Git / GitHub para versionamento
 
 ---
@@ -33,16 +32,16 @@
 
 ### Requisitos
 
-- PHP >= 8.1
-- Composer
-- MySQL
-- Google Maps API Key
+- PHP >= 8.1  
+- Composer  
+- MySQL  
+- Chave API do Google Maps (Google Maps API Key)
 
 ### Passos para rodar localmente
 
 ```bash
-git clone https://github.com/Gomes19/hosptrack.git
-cd hosptrack
+git clone https://github.com/Gomes19/careflow-erp.git
+cd careflow-erp
 composer install
 cp .env.example .env
 php artisan key:generate
